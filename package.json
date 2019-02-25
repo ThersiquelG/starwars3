@@ -1,0 +1,25 @@
+{
+  "name": "starwars3",
+  "version": "1.0.0",
+  "description": "Travaux Pratiques",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dolois/starwars3.git"
+  },
+  "author": "Dominick LOISEL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dolois/starwars3/issues"
+  },
+  "homepage": "https://github.com/Dolois/starwars3#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.11.0"
+  },
+  "devDependencies": {
+    "less": "^3.9.0"
+  }
+}
