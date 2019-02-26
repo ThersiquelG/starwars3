@@ -1,9 +1,9 @@
-let peopleZone = document.querySelector('.people-zone');
-let planetsZone = document.querySelector('.planets-zone');
+let moviesZone    = document.querySelector('.movies-zone');
+let planetsZone   = document.querySelector('.planets-zone');
 let starshipsZone = document.querySelector('.starships-zone');
 
-let peopleScreen = peopleZone.querySelector('.screen');
-let planetsScreen = planetsZone.querySelector('.screen');
+let moviesScreen    = moviesZone.querySelector('.screen');
+let planetsScreen   = planetsZone.querySelector('.screen');
 let starshipsScreen = starshipsZone.querySelector('.screen');
 
 // J'ajoute le texte suivant dans mon span
@@ -50,7 +50,7 @@ let api = (url) =>
                 if (zone[zone.length - 1] == 'films' &&
                     actors[0] == luke)
                 {
-                    span.classList.add('span-people');
+                    span.classList.add('span-movies');
                     span.innerHTML = title;
                 }
 
@@ -71,7 +71,7 @@ let api = (url) =>
                 // Intégration de la balise <span> à la zone concernée dans le DOM
                 if (zone[zone.length - 1] == 'films' &&
                     actors[0] == luke)
-                    peopleScreen.appendChild(span);
+                    moviesScreen.appendChild(span);
 
                 if (zone[zone.length - 2] == 'planets')
                     planetsScreen.appendChild(span);
