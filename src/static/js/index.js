@@ -87,7 +87,7 @@ let apiFilms     = api("https://swapi.co/api/films");
 let apiPlanets   = api("https://swapi.co/api/planets/");
 let apiStarships = api("https://swapi.co/api/starships/");
 
-// Cette fonction créée the type of element you pass in the parameters
+// Cette fonction créée une variable type of element en paramètres pass in the parameters
 function createNode(element) {
     return document.createElement(element); 
   }
